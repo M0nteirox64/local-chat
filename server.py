@@ -14,8 +14,3 @@ while True:
     print(f"Cliente: {data}")
     resposta = input("Tu (servidor): ")
     con.send(str.encode(resposta))
-
-
-
-
-
